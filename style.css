@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+.container {
+    /* margin-top: 3px; */
+    /* display: flex; */
+    position: relative;
+    height: 145px;
+    width: 377px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 20px;
+    margin-left: 515px;
+    margin-bottom: 13px;
+    box-shadow: 7px 7px rgba(187, 0, 255, 0.42);
+
+}
+
+.text {
+    position: absolute;
+    background-color: white;
+    top: 20px;
+    font-size: 20px;
+    color: rgb(230, 24, 24);
+    font-weight: 900;
+    font-style: italic;
+    /* box-shadow: 0 0 purple; */
+    text-shadow: 2px 1px rgba(180, 8, 243, 0.42);
+}
+
+.text1 {
+    top: 19px;
+    left: 120px;
+}
+
+.text2 {
+    top: 57px;
+    left: 130px;
+    /* bottom: 2px; */
+}
+
+.text3 {
+    top: 93px;
+    left: 100px;
+}
+
+.hr {
+    border: 2px solid rgb(255, 255, 255);
+    font-weight: 700;
+    height: 10px;
+}
+
+.container1 {
+    border: 8px solid green;
+    margin-top: 6px;
+    height: 700px;
+}
+
+.box {
+    margin-bottom: 85px;
+    height: 276px;
+    width: 285px;
+    border: 9px solid red;
+    border-radius: 10px;
+    background-color: white;
+    text-shadow: 3px 3px 3px rgba(104, 10, 148, 0.42);
+
+}
+
+.box1 {
+    background-color: white;
+    position: relative;
+    float: left;
+    font-size: 27px;
+    color: black;
+    font-weight: bolder;
+}
+
+.address {
+    position: absolute;
+    background-color: white;
+    top: 10px;
+    left: 14px;
+}
+
+.delhi {
+    position: absolute;
+    background-color: white;
+    top: 70px;
+    left: 14px;
+}
+
+.faridabad {
+    position: absolute;
+    background-color: white;
+    top: 130px;
+    left: 44px;
+}
+
+.haryana {
+    position: absolute;
+    background-color: white;
+    top: 190px;
+    left: 49px;
+}
+
+.box2 {
+    position: relative;
+    float: right;
+    margin-right: 50px;
+}
+
+.img {
+    top: 13px;
+    left: 13px;
+    background: url(./image/img.jpg);
+    position: absolute;
+    height: 235px;
+    width: 237px;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.box3 {
+    float: left;
+    clear: left;
+    position: relative;
+    position: relative;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+.we {
+    position: absolute;
+    background-color: white;
+    top: 20px;
+}
+
+.best {
+    position: absolute;
+    background-color: white;
+    top: 55px;
+}
+
+.please {
+    position: absolute;
+    background-color: white;
+    top: 120px;
+}
+
+.store {
+    position: absolute;
+    background-color: white;
+    top: 150px;
+}
+
+.better {
+    position: absolute;
+    background-color: white;
+    top: 175px;
+}
+
+.and {
+    position: absolute;
+    background-color: white;
+    top: 200px;
+}
+
+
+
+
+.box4 {
+    height: 300px;
+    float: right;
+    clear: right;
+    margin-right: 50px;
+    margin-bottom: 3px;
+    position: relative;
+    font-weight: 700;
+
+}
+
+.rate {
+    position: absolute;
+    background-color: white;
+    top: 20px;
+    font-size: 25px;
+    left: 20px;
+}
+
+label {
+    position: absolute;
+    background-color: white;
+    top: 70px;
+    left: 85px;
+}
+
+input {
+    position: absolute;
+    background-color: white;
+    top: 90px;
+    left: 60px;
+}
+
+.submit {
+    position: absolute;
+    background-color: white;
+    top: 132px;
+    left: 85px;
+
+}
+
+.button {
+    position: absolute;
+    background-color: white;
+    top: 150px;
+    left: 75px;
+    width: 20px;
+}
+
+button {
+    border-radius: 10px;
+    font-weight: 600;
+    color: black;
+    background-color: red;
+    width: 85px;
+    cursor: pointer;
+}
+
+.violetbox {
+    margin-left: 137px;
+    width: 600px;
+    height: 500px;
+    border: 8px solid purple;
+    background-color: green;
+    position: relative;
+    margin-top: 20px;
+    gap: 2px;
+}
+
+.container3 {
+    display: flex;
+   
+}
+.textw{
+    /* position: absolute; */
+    background-color: green;
+  height: 60px;
+}
+.texty{
+    position: absolute;
+    background-color: green;
+    font-size: 25px;
+    font-weight: 600;
+    left: 180px;
+    top: 10px;
+
+
+}
+.vbox1 {
+    width: 290px;
+    height: 200px;
+    background-color:rgb(244, 244, 123);
+    float: left;
+    clear: both;
+    margin-bottom: 10px;
+    position: relative;
+    /* display: flex; */
+   
+
+}
+.fruits{
+    top: 20px;
+    left: 100px;
+    position: absolute;
+   font-size: 20px;
+   font-weight: 700;
+   font-style: italic;
+    background-color:rgb(244, 244, 123) ;
+}
+p{ margin-left: 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    /* font-weight: 600; */
+    font-style: italic;
+    background-color:rgb(244, 244, 123) ;
+}
+
+
+
+.vbox2 {
+    width: 290px;
+    height: 200px;
+    background-color:rgb(244, 244, 123);
+    float: right;
+}
+.veggies{
+    top: 80px;
+    left: 388px;
+    position: absolute;
+   font-size: 20px;
+   font-weight: 700;
+   font-style: italic;
+    background-color:rgb(244, 244, 123) ;
+}
+
+.vbox3 {
+    width: 595px;
+    height: 220px;
+    background-color:rgb(244, 244, 123);
+    clear: both;
+}
+.others{
+    top: 290px;
+    left: 248px;
+    position: absolute;
+   font-size: 20px;
+   font-weight: 700;
+   font-style: italic;
+    background-color:rgb(244, 244, 123) ;
+}
+span{
+    background-color:rgb(244, 244, 123) ;
+    margin-left: 10px;
+}
+
+.offerbox {
+    top: 600px;
+    width: 450px;
+    height: 90px;
+    border: 6px solid red;
+    box-shadow:7px 7px rgba(187, 0, 255, 0.42) ;
+    background-color:rgb(197, 246, 2);
+    border-radius: 20px;
+    position: fixed;
+    z-index: 9999;
+    left: 519px;
+}
+
+.word{
+  color: red;
+  /* border: 2px solid red; */
+  background-color:rgb(197, 246, 2) ;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 22px;
+}
+.container4{
+    position: relative;
+}
+.exciting{
+   position: absolute;
+   top: 12px;
+   left: 30px;
+}
+.monday{
+position: absolute;
+top: 40px;
+left: 60px;
+}
+.get{
+position: absolute;
+top: 20px;
+left: 270px;
+}
+.ten{
+position: absolute;
+top: 45px;
+left: 320px;
+}
